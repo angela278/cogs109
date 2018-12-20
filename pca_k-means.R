@@ -1,3 +1,5 @@
+#By Reid Doctor
+
 require(matrixStats)
 library(cluster)
 
@@ -87,8 +89,3 @@ for (pcaweight in pca5.scrubbed$rotation[,1]) {
     print(pcaweight)
   }
 }
-
-
-
-
-
